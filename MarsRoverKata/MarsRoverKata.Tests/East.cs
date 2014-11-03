@@ -6,12 +6,12 @@ namespace MarsRoverKata.Tests
     {
         public IDirection TurnLeft()
         {
-            throw new System.NotImplementedException();
+            return new North();
         }
 
         public IDirection TurnRight()
         {
-            throw new System.NotImplementedException();
+            return new South();
         }
 
         public KeyValuePair<int, int> MoveForward(KeyValuePair<int, int> position)

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="South.cs" />
     <Compile Include="RoverTests.cs" />
     <Compile Include="East.cs" />
     <Compile Include="IDirection.cs" />
